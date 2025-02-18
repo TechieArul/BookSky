@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BookSky</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <!-- header -->
+    <h1>Booksky</h1>
+
+    <div class="item_containner">
+        <div class="item">
+            <h2>The Cyber Secura book</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="del_item" onclick="del_book(event)" >Delete book</button>
+        </div>
+        <div class="item">
+            <h2>A Simple book</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="del_item" onclick="del_book(event)">Delete book</button>
+        </div>
+        <div class="item">
+            <h2>Harry Potter</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="del_item" onclick="del_book(event)" >Delete book</button>
+        </div>
+        <div class="item">
+            <h2>A sunny Island</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="del_item" onclick="del_book(event)">Delete book</button>
+        </div>
+        <div class="item">
+            <h2>The Cyber Secura book</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="del_item" onclick="del_book(event)" >Delete book</button>
+        </div>
+        <div class="item">
+            <h2>A Simple book</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="del_item" onclick="del_book(event)">Delete book</button>
+        </div>
+        <div class="item">
+            <h2>Harry Potter</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="del_item" onclick="del_book(event)" >Delete book</button>
+        </div>
+        <div class="item">
+            <h2>A sunny Island</h2>
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button class="del_item" onclick="del_book(event)">Delete book</button>
+        </div>
+        
+        
+        
+    </div>
+
+    <div class="open_add_book" onclick="open_add_book()">+</div>
+
+    <!-- add screnn -->
+    <div class="background">
+        <div class="input_form">
+            <input type="text" id="book_name" placeholder="Enter book Name">
+            <input type="text" id="book_des" placeholder="Enter book Description">
+            <button id="add_book" onclick="add_book()">Add Book</button>
+            <button id="close_bg" onclick="close_bg()">close</button>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
